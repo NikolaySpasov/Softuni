@@ -6,7 +6,7 @@ class SpecialNumbers
     {
         int n = int.Parse(Console.ReadLine());
 
-        for (int i = 0; i < n; i++)
+        for (int i = 1; i <= n; i++)
         {
             var currentNumber = i;
             var sum = 0;
@@ -19,7 +19,9 @@ class SpecialNumbers
 
             var result = sum == 5 || sum == 7 || sum == 11;
 
-                Console.WriteLine($"{i} -> {result}");
+            Console.WriteLine("{0} -> {1}", i, result);
+
+            //Console.WriteLine($"{i} -> {result}");
         }
     }
 }
