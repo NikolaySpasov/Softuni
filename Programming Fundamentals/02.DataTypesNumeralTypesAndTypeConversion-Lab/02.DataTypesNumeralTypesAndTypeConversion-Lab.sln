@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Data Types Numeral Types and Type Conversion", "01.DataTypesNumeralTypesAndTypeConversion-Lab\01. Data Types Numeral Types and Type Conversion.csproj", "{D8E7227E-B6D9-40AF-BEC7-5EC2D65CB32B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Circle Perimeter (12 Digits Precision)", "02.Circle Perimeter (12 Digits Precision)\02.Circle Perimeter (12 Digits Precision).csproj", "{CBFADC0C-F725-49B3-A088-F588F6787EE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8E7227E-B6D9-40AF-BEC7-5EC2D65CB32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E7227E-B6D9-40AF-BEC7-5EC2D65CB32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E7227E-B6D9-40AF-BEC7-5EC2D65CB32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E7227E-B6D9-40AF-BEC7-5EC2D65CB32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFADC0C-F725-49B3-A088-F588F6787EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFADC0C-F725-49B3-A088-F588F6787EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFADC0C-F725-49B3-A088-F588F6787EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFADC0C-F725-49B3-A088-F588F6787EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
