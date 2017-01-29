@@ -7,7 +7,7 @@ using System;
 public class PracticeIntegerNumbers
 
 {
-    
+
     public static void Main()
     {
         sbyte num1 = -100;
@@ -18,13 +18,13 @@ public class PracticeIntegerNumbers
         int num6 = -1141583228;
         long num7 = -1223372036854775808;
 
-        System.Console.WriteLine(num1); 
-        System.Console.WriteLine(num2); 
-        System.Console.WriteLine(num3); 
+        System.Console.WriteLine(num1);
+        System.Console.WriteLine(num2);
+        System.Console.WriteLine(num3);
         System.Console.WriteLine(num4);
         System.Console.WriteLine(num5);
         System.Console.WriteLine(num6);
         System.Console.WriteLine(num7);
-         
+
     }
 }
