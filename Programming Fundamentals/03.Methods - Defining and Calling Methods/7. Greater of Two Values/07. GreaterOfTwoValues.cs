@@ -13,15 +13,15 @@ namespace Greater_of_Two_Values
             {
                 int int1 = int.Parse(Console.ReadLine());
                 int int2 = int.Parse(Console.ReadLine());
-                int max = GetMax( int1,int2);
-                Console.WriteLine(max); 
+                int max = GetMax(int1, int2);
+                Console.WriteLine(max);
             }
 
             else if (type == "char")
             {
                 char char1 = char.Parse(Console.ReadLine());
                 char char2 = char.Parse(Console.ReadLine());
-                char max = GetMax(char1,char2);
+                char max = GetMax(char1, char2);
                 Console.WriteLine(max);
             }
 
