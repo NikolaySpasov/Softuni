@@ -7,11 +7,19 @@ namespace _06.Notifications
         static void Main()
         {
             int N = int.Parse(Console.ReadLine());
-            Input(N);
-            ShowSuccess(operation, message);
+            string result = Console.ReadLine();
+
+            string operation = Console.ReadLine();
+            string message = Console.ReadLine();
+
+            if (result == "success")
+            {
+                ShowSuccess(operation, message);
+            }
+
         }
 
-        static string ShowSuccess(string operation, string message)
+        static void ShowSuccess(string operation, string message)
         {
             Console.WriteLine($"Successfully executed {operation}.");
             Console.WriteLine("==============================");
@@ -19,11 +27,18 @@ namespace _06.Notifications
 
         }
 
-        static string ShowError(string operation, int code)
+        static void ShowError(string operation, int code)
         {
             Console.WriteLine($"Error: Failed to execute {operation}.");
             Console.WriteLine("==============================");
-            Console.WriteLine($"Error Code: {code}.");
+            if (code < 0)
+            {
+                Console.WriteLine($"Error Code: Invalid Client Data.");
+            }
+            else
+            {
+                Console.WriteLine($"Error Code: Internal System Failure.");
+            }
 
         }
 
