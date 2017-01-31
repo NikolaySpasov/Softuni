@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Calculator", "15. Calcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Tricky Strings", "16. Tricky Strings\16. Tricky Strings.csproj", "{7E477FFB-DE89-43DB-9711-48400200EE4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.TriangleFormation", "09.TriangleFormation\09.TriangleFormation.csproj", "{8763AA85-93D5-4A26-9F9C-F452B9C9F559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{7E477FFB-DE89-43DB-9711-48400200EE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E477FFB-DE89-43DB-9711-48400200EE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E477FFB-DE89-43DB-9711-48400200EE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8763AA85-93D5-4A26-9F9C-F452B9C9F559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8763AA85-93D5-4A26-9F9C-F452B9C9F559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8763AA85-93D5-4A26-9F9C-F452B9C9F559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8763AA85-93D5-4A26-9F9C-F452B9C9F559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

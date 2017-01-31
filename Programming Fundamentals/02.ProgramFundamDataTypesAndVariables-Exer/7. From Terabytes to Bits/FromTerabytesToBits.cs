@@ -7,9 +7,9 @@ class FromTerabytesToBits
 {
     static void Main()
     {
-        long oneTerabyte = 1024L*1024*1024*1024*8;
-        decimal number = decimal.Parse(Console.ReadLine());
-        long result = (long)Math.Ceiling( number * oneTerabyte);
+        long oneTerabyte = 8796093022208;
+        double number = double.Parse(Console.ReadLine());
+        BigInteger result = (BigInteger)Math.Ceiling((double)number * oneTerabyte);
         Console.WriteLine(result);
     }
 }

@@ -10,26 +10,42 @@
 //•	On fifth line – time in seconds
 
 using System;
+using System.Globalization;
 
 class TravelingAtLightSpeed
 {
     static void Main()
     {
-        long lightYear = 9450000000000;
-        long speedOfLight = 300000;
         decimal inputLightYears = decimal.Parse(Console.ReadLine());
+
+        decimal lightYear = 9450000000000M;
+        decimal speedOfLight = 300000M;
+
         decimal seconds = inputLightYears * (lightYear / speedOfLight);
-        decimal weeks = (decimal)seconds / (7*1*24*60*60);
-        decimal days = (decimal)(weeks %1);
-        decimal days1 = (decimal) 7 * days*100;
-        Console.WriteLine(days1);
-        int hours = (int)seconds % 60;
-        int minutes = (int)seconds % 60;
-        Console.WriteLine($"{weeks} weeks");
-        Console.WriteLine($"{days} days");
-        Console.WriteLine($"{hours} hours");
-        Console.WriteLine($"{minutes} minutes");
-        Console.WriteLine($"{seconds} seconds");
+
+        TimeSpan diff = TimeSpan.FromSeconds((double)seconds);
+        string formatted = string.Format(
+              CultureInfo.CurrentCulture,
+              "{0} weeks\n{1} days\n{2} hours\n{3} minutes\n{4} seconds\n",
+              diff.Days / 7,
+              diff.Days % 7,
+              diff.Hours,
+              diff.Minutes,
+              diff.Seconds);
+
+        Console.WriteLine(formatted);
+
+        //decimal weeks = (decimal)seconds / (7*1*24*60*60);
+        //decimal days = (decimal)(weeks %1);
+        //decimal days1 = (decimal) 7 * days*100;
+        //Console.WriteLine(days1);
+        //int hours = (int)seconds % 60;
+        //int minutes = (int)seconds % 60;
+        //Console.WriteLine($"{weeks} weeks");
+        //Console.WriteLine($"{days} days");
+        //Console.WriteLine($"{hours} hours");
+        //Console.WriteLine($"{minutes} minutes");
+        //Console.WriteLine($"{seconds} seconds");
     }
 }
 

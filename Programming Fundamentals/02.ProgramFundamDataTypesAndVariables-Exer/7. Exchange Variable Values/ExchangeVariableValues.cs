@@ -7,12 +7,9 @@ class ExchangeVariableValues
 {
     static void Main()
     {
-        int a = 5;
-        int b = 10;
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
         int c;
-
-        Console.WriteLine(a);
-        Console.WriteLine(b);
 
         c = a;
         a = b;
