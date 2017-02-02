@@ -1,47 +1,59 @@
 ﻿using System;
 
-namespace _06.Notifications
+class Notifications
 {
-    class Notifications
+    public static void Main()
     {
-        static void Main()
-        {
-            int N = int.Parse(Console.ReadLine());
-            string result = Console.ReadLine();
+        var n = int.Parse(Console.ReadLine());
 
-            string operation = Console.ReadLine();
-            string message = Console.ReadLine();
+        for (int i = 0; i < n; i++)
+        {
+            var result = Console.ReadLine();
 
             if (result == "success")
             {
-                ShowSuccess(operation, message);
+                var operation = Console.ReadLine();
+                var message = Console.ReadLine();
+
+                PrintSuccess(operation, message);
             }
-
-        }
-
-        static void ShowSuccess(string operation, string message)
-        {
-            Console.WriteLine($"Successfully executed {operation}.");
-            Console.WriteLine("==============================");
-            Console.WriteLine($"Message: {message}."); 
-
-        }
-
-        static void ShowError(string operation, int code)
-        {
-            Console.WriteLine($"Error: Failed to execute {operation}.");
-            Console.WriteLine("==============================");
-            if (code < 0)
+            else if (result == "error")
             {
-                Console.WriteLine($"Error Code: Invalid Client Data.");
-            }
-            else
-            {
-                Console.WriteLine($"Error Code: Internal System Failure.");
-            }
+                var operation = Console.ReadLine();
+                var code = int.Parse(Console.ReadLine());
 
+                PrintError(operation, code);
+            }
+        }
+    }
+
+    public static void PrintSuccess(string operation, string message)
+    {
+        var result = $"Successfully executed {operation}." + Environment.NewLine;
+        result += "==============================" + Environment.NewLine;
+        result += $"Message: {message}.";
+
+        Console.WriteLine(result);
+    }
+
+    public static void PrintError(string operation, int code)
+    {
+        var result = $"Error: Failed to execute {operation}." + Environment.NewLine;
+        result += "==============================" + Environment.NewLine;
+        result += $"Error Code: {code}." + Environment.NewLine;
+
+        var reason = string.Empty;
+        if (code > 0)
+        {
+            reason = "Invalid Client Data";
+        }
+        else
+        {
+            reason = "Internal System Failure";
         }
 
+        result += $"Reason: {reason}.";
 
+        Console.WriteLine(result);
     }
 }
