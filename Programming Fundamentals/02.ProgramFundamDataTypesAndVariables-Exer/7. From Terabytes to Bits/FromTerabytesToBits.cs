@@ -1,11 +1,11 @@
-﻿//Write program to enter a real number of terabytes and convert it to bits.
+﻿////Write program to enter a real number of terabytes and convert it to bits.
 
 using System;
 using System.Numerics;
 
-class FromTerabytesToBits
+public class FromTerabytesToBits
 {
-    static void Main()
+    public static void Main()
     {
         long oneTerabyte = 8796093022208;
         double number = double.Parse(Console.ReadLine());
@@ -13,4 +13,3 @@ class FromTerabytesToBits
         Console.WriteLine(result);
     }
 }
-
