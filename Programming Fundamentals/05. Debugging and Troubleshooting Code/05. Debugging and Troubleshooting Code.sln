@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Multiply Evens by Odds", "01. Multiply Evens by Odds\01. Multiply Evens by Odds.csproj", "{EB2BA28C-4680-4FF5-9DF8-E810DC7123C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Debugging Exercise Holidays Between Two Dates", "02. Debugging Exercise Holidays Between Two Dates\02. Debugging Exercise Holidays Between Two Dates.csproj", "{2D9EB559-1E43-4857-A7D3-D9AA74C61B02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Debugging Exercise - Price Change Alert", "03. Debugging Exercise - Price Change Alert\03. Debugging Exercise - Price Change Alert.csproj", "{16F9DE4D-EFD1-4887-95DA-6596E7DB22AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB2BA28C-4680-4FF5-9DF8-E810DC7123C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2BA28C-4680-4FF5-9DF8-E810DC7123C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2BA28C-4680-4FF5-9DF8-E810DC7123C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2BA28C-4680-4FF5-9DF8-E810DC7123C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9EB559-1E43-4857-A7D3-D9AA74C61B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9EB559-1E43-4857-A7D3-D9AA74C61B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9EB559-1E43-4857-A7D3-D9AA74C61B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9EB559-1E43-4857-A7D3-D9AA74C61B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F9DE4D-EFD1-4887-95DA-6596E7DB22AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F9DE4D-EFD1-4887-95DA-6596E7DB22AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F9DE4D-EFD1-4887-95DA-6596E7DB22AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F9DE4D-EFD1-4887-95DA-6596E7DB22AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
