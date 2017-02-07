@@ -16,7 +16,6 @@
                 numbers[i] = int.Parse(Console.ReadLine());
                 sum += numbers[i];
             } 
-
                 Console.WriteLine(sum);
         }
     }
