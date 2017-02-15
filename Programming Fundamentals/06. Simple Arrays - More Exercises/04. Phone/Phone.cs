@@ -13,6 +13,8 @@ namespace _04.Phone
             string[] phoneNumbers = Console.ReadLine().Split().ToArray();
             string[] names = Console.ReadLine().Split().ToArray();
 
+            if
+
             Call(phoneNumbers, names);
         }
 
