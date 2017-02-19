@@ -8,7 +8,7 @@
     {
         static void Main()
         {
-            var numbers = Console.ReadLine().Split('|').ToList();
+            var numbers = Console.ReadLine().Split('|',StringSplitOptions.RemoveEmptyEntries).ToList();
             var result = new List<string>();
 
             for (int i = numbers.Count - 1; i >=  0; i--)
