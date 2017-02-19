@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D3F5394-758E-458C-ABA8-F02FFCD8690F}</ProjectGuid>
+    <ProjectGuid>{F2892495-944B-4B9A-9A60-DDBBA1E68572}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_06.Stuck_Zipper</RootNamespace>
-    <AssemblyName>_06.Stuck_Zipper</AssemblyName>
+    <RootNamespace>_02.Integer_Insertion</RootNamespace>
+    <AssemblyName>_02.Integer_Insertion</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="StuckZipper.cs" />
+    <Compile Include="IntegerInsertion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
