@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Shoot List Elements", "01. Shoot List Elements\01. Shoot List Elements.csproj", "{9C685023-964A-4EF0-A964-0B1B71F003FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Average Character Delimiter", "02. Average Character Delimiter\02. Average Character Delimiter.csproj", "{19C1CABB-FE95-4F03-85CD-5E4693C55CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Sort Array of Strings", "03. Sort Array of Strings\03. Sort Array of Strings.csproj", "{25A42BE5-982A-4147-B95E-564D9E1607FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Array Histogram", "04. Array Histogram\04. Array Histogram.csproj", "{29805E00-3D96-4743-BD1E-A9C29B8E0AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Batteries", "06. Batteries\06. Batteries.csproj", "{0C757A8B-97EA-438C-8873-8CAE761E2201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Decode Radio Frequencies", "05. Decode Radio Frequencies\05. Decode Radio Frequencies.csproj", "{7AAD88B5-BC65-4839-BD9D-8F64D3F1CCF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C685023-964A-4EF0-A964-0B1B71F003FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C685023-964A-4EF0-A964-0B1B71F003FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C685023-964A-4EF0-A964-0B1B71F003FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C685023-964A-4EF0-A964-0B1B71F003FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C1CABB-FE95-4F03-85CD-5E4693C55CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C1CABB-FE95-4F03-85CD-5E4693C55CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C1CABB-FE95-4F03-85CD-5E4693C55CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C1CABB-FE95-4F03-85CD-5E4693C55CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A42BE5-982A-4147-B95E-564D9E1607FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A42BE5-982A-4147-B95E-564D9E1607FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A42BE5-982A-4147-B95E-564D9E1607FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A42BE5-982A-4147-B95E-564D9E1607FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29805E00-3D96-4743-BD1E-A9C29B8E0AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29805E00-3D96-4743-BD1E-A9C29B8E0AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29805E00-3D96-4743-BD1E-A9C29B8E0AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29805E00-3D96-4743-BD1E-A9C29B8E0AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C757A8B-97EA-438C-8873-8CAE761E2201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C757A8B-97EA-438C-8873-8CAE761E2201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C757A8B-97EA-438C-8873-8CAE761E2201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C757A8B-97EA-438C-8873-8CAE761E2201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AAD88B5-BC65-4839-BD9D-8F64D3F1CCF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AAD88B5-BC65-4839-BD9D-8F64D3F1CCF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AAD88B5-BC65-4839-BD9D-8F64D3F1CCF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AAD88B5-BC65-4839-BD9D-8F64D3F1CCF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

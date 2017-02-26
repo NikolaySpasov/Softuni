@@ -1,53 +1,38 @@
-﻿namespace UnunionLists
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-    public class UnunionLists
+namespace _04.UnunionLists
+{
+    class UnunionLists
     {
-        public static void Main()
+        static void Main(string[] args)
         {
             var primalList = Console.ReadLine().Split().Select(int.Parse).ToList();
-            var n = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < n; i++)
+            int countOfLines = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < countOfLines; i++)
             {
-                var lines = Console.ReadLine().Split().Select(int.Parse).ToList();
+                var commandLine = Console.ReadLine().Split().Select(int.Parse).ToList();
 
-                RemoveElements(primalList, lines);
-                AddElement(primalList, lines);
-            }
-
-            primalList.Sort();
-            Console.WriteLine(string.Join(" ",primalList));
-        }
-
-        private static void AddElement(List<int> primalList, List<int> lines)
-        {
-            for (int i = 0; i < lines.Count; i++)
-            {
-                primalList.Add(lines[i]);
-            }
-        }
-
-        private static void RemoveElements(List<int> primalList, List<int> lines)
-        {
-            var tempList = Console.ReadLine().Split().Select(int.Parse).ToList();
-
-            for (int i = 0; i < primalList.Count; i++)
-            {
-                for (int j = 0; j < lines.Count; j++)
+                foreach (var num in commandLine)
                 {
-                    if (primalList[i] == lines[j])
+                    if (primalList.Contains(num))
                     {
-                        primalList.Remove(primalList[i]);
-                        lines.Remove(lines[j]);
-                        j = 0;
-                        i = 0;
+                        primalList.Remove(num);
+                    }
+                    else
+                    {
+                        primalList.Add(num);
                     }
                 }
             }
+            var listM = new List<int>(5);
+            primalList.Sort();
+            Console.WriteLine(string.Join(" ", primalList));
         }
     }
 }
