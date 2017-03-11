@@ -9,7 +9,7 @@
         public static void Main()
         {
             var lineInput = Console.ReadLine();
-            var forumTopics = new Dictionary<string, List<string>>();
+            var forumTopics = new Dictionary<string, HashSet<string>>();
 
             while (lineInput != "filter")
             {
@@ -21,7 +21,7 @@
                 {
                     if (!forumTopics.ContainsKey(topics))
                     {
-                        forumTopics[topics] = new List<string>();
+                        forumTopics[topics] = new HashSet<string>();
                     }
 
                     forumTopics[topics].Add(tags[i]);
@@ -29,20 +29,24 @@
                 lineInput = Console.ReadLine();
             }
 
-            var filter = Console.ReadLine().Split(", ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+            var checkTag = Console.ReadLine().Split(", ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
             foreach (var kvp in forumTopics)
             {
                 var topic = kvp.Key;
                 var tag = kvp.Value;
-                for (int i = 0; i < filter.Length; i++)
+                var counter = 0;
+
+                for (int i = 0; i < checkTag.Length; i++) //iterate over the search array
                 {
-                    if ((tag + "") == filter[i])
+                    if (kvp.Value.Contains(checkTag[i])) //if the KVP value contains a word from the search array
                     {
-                        Console.Write("{0}| #", topic);
-                        Console.WriteLine(string.Join(", #", tag));
-
+                        counter++;
                     }
+                }
 
+                if (checkTag.Length == counter)
+                {
+                    Console.WriteLine($"{topic} | #{string.Join(", #", tag)}");
                 }
 
             }
