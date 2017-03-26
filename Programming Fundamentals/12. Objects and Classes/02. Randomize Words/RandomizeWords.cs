@@ -1,0 +1,27 @@
+﻿namespace RandomizeWords
+{
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    public class RandomizeWords
+    {
+        public static void Main()
+        {
+            string[] words = Console.ReadLine().Split(' ');
+            var temp = string.Empty;
+            Random rnd = new Random();
+            for (int pos1 = 0; pos1 < words.Length; pos1++)
+            {
+                int pos2 = rnd.Next(words.Length);
+                temp = words[pos1];
+                words[pos1] = words[pos2];
+                words[pos2] = temp;
+
+                // TODO: swap words[pos1] with words[pos2]
+            }
+            Console.WriteLine(string.Join("\r\n", words));
+
+        }
+    }
+}

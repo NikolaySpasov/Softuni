@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C4897E1A-1B9E-4375-883B-B86D50FEC9A5}</ProjectGuid>
+    <ProjectGuid>{F1455E31-00B6-4555-88FC-AEAC8F3EB19C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Programing_Fundamentals_Template1</RootNamespace>
+    <RootNamespace>Programing_Fundamentals_Template2</RootNamespace>
     <AssemblyName>Programing Fundamentals Template1</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

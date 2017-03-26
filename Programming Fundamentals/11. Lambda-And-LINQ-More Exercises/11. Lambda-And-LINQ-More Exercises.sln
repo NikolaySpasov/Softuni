@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Lambada Expressions", "01. Lambada Expressions\01. Lambada Expressions.csproj", "{EE4B516D-368F-454F-A534-A87C90C2518C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Ordered Banking System", "02. Ordered Banking System\02. Ordered Banking System.csproj", "{D746C2F2-E270-4455-8BF6-8A7DB9BAED3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programing Fundamentals Template1", "Programing Fundamentals Template1\Programing Fundamentals Template1.csproj", "{097211C8-9B69-4EC0-8502-2A0953B7F9BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. LINQuistics", "03. LINQuistics\03. LINQuistics.csproj", "{D2875D78-2C4D-4C1F-9283-EA56E33E281A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE4B516D-368F-454F-A534-A87C90C2518C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4B516D-368F-454F-A534-A87C90C2518C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4B516D-368F-454F-A534-A87C90C2518C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4B516D-368F-454F-A534-A87C90C2518C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D746C2F2-E270-4455-8BF6-8A7DB9BAED3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D746C2F2-E270-4455-8BF6-8A7DB9BAED3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D746C2F2-E270-4455-8BF6-8A7DB9BAED3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D746C2F2-E270-4455-8BF6-8A7DB9BAED3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097211C8-9B69-4EC0-8502-2A0953B7F9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097211C8-9B69-4EC0-8502-2A0953B7F9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097211C8-9B69-4EC0-8502-2A0953B7F9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097211C8-9B69-4EC0-8502-2A0953B7F9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2875D78-2C4D-4C1F-9283-EA56E33E281A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2875D78-2C4D-4C1F-9283-EA56E33E281A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2875D78-2C4D-4C1F-9283-EA56E33E281A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2875D78-2C4D-4C1F-9283-EA56E33E281A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
