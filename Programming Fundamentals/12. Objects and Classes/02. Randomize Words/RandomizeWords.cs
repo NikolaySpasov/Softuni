@@ -17,8 +17,6 @@
                 temp = words[pos1];
                 words[pos1] = words[pos2];
                 words[pos2] = temp;
-
-                // TODO: swap words[pos1] with words[pos2]
             }
             Console.WriteLine(string.Join("\r\n", words));
 

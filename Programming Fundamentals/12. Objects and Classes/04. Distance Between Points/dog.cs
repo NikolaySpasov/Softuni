@@ -8,5 +8,6 @@ namespace _04.Distance_Between_Points
 {
     class dog
     {
+        public int MyProperty { get; set; }
     }
 }
