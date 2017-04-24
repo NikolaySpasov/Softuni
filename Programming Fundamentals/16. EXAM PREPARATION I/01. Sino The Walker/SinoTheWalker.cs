@@ -1,23 +1,18 @@
-﻿namespace SinoTheWalker
+﻿using System;
+using System.Globalization;
+ 
+class SinoTheWalker
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-
-    public class SinoTheWalker
+    static void Main()
     {
-        public static void Main()
-        {
-            var duration = Console.ReadLine().Split(':').Select(int.Parse).ToArray();
-            var timeDuration = new TimeSpan(duration[0], duration[1], duration[2]);
-            var wolkingInSeconds = int.Parse(Console.ReadLine());
-            var timePerStep = wolkingInSeconds *  int.Parse(Console.ReadLine());
-            var stepsInSecond = new TimeSpan(00, 00, timePerStep);
+        var timeFormat = @"hh\:mm\:ss";
+        var leavingTime = TimeSpan.ParseExact(Console.ReadLine(), timeFormat, CultureInfo.InvariantCulture);
+        var stepsNeeded = decimal.Parse(Console.ReadLine());
+        var secondsPerStep = decimal.Parse(Console.ReadLine());
+        const int  secondsInADay = 60 * 60 * 24;
+        var totalSecondNeeded = (int)(stepsNeeded * secondsPerStep % secondsInADay);
+        var arrivalTime = leavingTime.Add(new TimeSpan(0,0,totalSecondNeeded));
 
-            var result = timeDuration + stepsInSecond;
-
-            Console.WriteLine($"Time Arrival: {result:\\:hh.ff\\:mm\\:ss}");
-
-        }
+        Console.WriteLine($"Time Arrival: " + arrivalTime.ToString(timeFormat));
     }
 }

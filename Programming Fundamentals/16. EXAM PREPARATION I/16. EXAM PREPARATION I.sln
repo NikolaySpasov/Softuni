@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sino The Walker", "01. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Endurance Rally", "03. Endurance Rally\03. Endurance Rally.csproj", "{DE3B0ADE-576B-49F2-A045-494710ADCE28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. SofUni Караоке", "02. SofUni Караоке\02. SofUni Караоке.csproj", "{9C92E3AA-7B15-47DB-AEC4-A36034B61767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Winning Ticket", "04. Winning Ticket\04. Winning Ticket.csproj", "{B61A1E7A-99B7-42F9-830A-F3905B5BAD61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{DE3B0ADE-576B-49F2-A045-494710ADCE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE3B0ADE-576B-49F2-A045-494710ADCE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE3B0ADE-576B-49F2-A045-494710ADCE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C92E3AA-7B15-47DB-AEC4-A36034B61767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C92E3AA-7B15-47DB-AEC4-A36034B61767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C92E3AA-7B15-47DB-AEC4-A36034B61767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C92E3AA-7B15-47DB-AEC4-A36034B61767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B61A1E7A-99B7-42F9-830A-F3905B5BAD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61A1E7A-99B7-42F9-830A-F3905B5BAD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61A1E7A-99B7-42F9-830A-F3905B5BAD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61A1E7A-99B7-42F9-830A-F3905B5BAD61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
