@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5E4ADDB7-8942-431C-97F6-D9AB44828BB3}</ProjectGuid>
+    <ProjectGuid>{4B76008B-E55A-48C1-A0DC-2A5435388CE4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02.Array_Manipulator</RootNamespace>
+    <RootNamespace>_04.Hornet_Armada</RootNamespace>
     <AssemblyName>Programing Fundamentals Template1</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayManipulator.cs" />
+    <Compile Include="HornetArmada.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

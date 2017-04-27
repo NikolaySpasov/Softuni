@@ -24,7 +24,7 @@
             var pricePerPortion = 2 * priceOfBananas + 4 * priceOfEggs + 0.2m * priceOfBerries;
             var totalPrice = pricePerPortion * portions;
 
-            var moneyLeft = totalPrice - amountOfCash;
+            var moneyLeft = amountOfCash - totalPrice;
 
             if (moneyLeft >= 0)
             {
