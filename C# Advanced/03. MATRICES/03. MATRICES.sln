@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Sum Matrix Elements", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Maximum sum of 2x2 submatrix", "02. Maximum sum of 2x2 submatrix\02. Maximum sum of 2x2 submatrix.csproj", "{4D92913E-76DE-4730-A6C7-C1CEF8E00FF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. GroupNumbers", "03. GroupNumbers\03. GroupNumbers.csproj", "{A87B7BD2-2DF7-4745-943F-FAC6580E78C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. PascalTriangles", "04. PascalTriangles\04. PascalTriangles.csproj", "{918B3D23-30B8-4D1E-AFC2-3029833B2CF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{4D92913E-76DE-4730-A6C7-C1CEF8E00FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D92913E-76DE-4730-A6C7-C1CEF8E00FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D92913E-76DE-4730-A6C7-C1CEF8E00FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87B7BD2-2DF7-4745-943F-FAC6580E78C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87B7BD2-2DF7-4745-943F-FAC6580E78C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87B7BD2-2DF7-4745-943F-FAC6580E78C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87B7BD2-2DF7-4745-943F-FAC6580E78C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918B3D23-30B8-4D1E-AFC2-3029833B2CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918B3D23-30B8-4D1E-AFC2-3029833B2CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918B3D23-30B8-4D1E-AFC2-3029833B2CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918B3D23-30B8-4D1E-AFC2-3029833B2CF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
