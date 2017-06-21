@@ -1,53 +1,50 @@
-﻿namespace _09.Query_Mess
+﻿using System;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
+
+public class QueryMess
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text.RegularExpressions;
-
-    public class QueryMess
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
+        string pattern = @"([^&=?]*)=([^&=]*)";
+        string regex = @"((%20|\+)+)";
+
+        string inputLine;
+
+        while (!((inputLine = Console.ReadLine()) == "END"))
         {
-            string pattern = @"([^&=?]*)=([^&=]*)";
-            string regex = @"((%20|\+)+)";
+            Regex pairs = new Regex(pattern);
+            MatchCollection matches = pairs.Matches(inputLine);
 
-            string inputLine;
+            Dictionary<string, List<string>> results = new Dictionary<string, List<string>>();
 
-            while (!((inputLine = Console.ReadLine()) == "END"))
+            for (int i = 0; i < matches.Count; i++)
             {
-                Regex pairs = new Regex(pattern);
-                MatchCollection matches = pairs.Matches(inputLine);
+                string field = matches[i].Groups[1].Value;
+                field = Regex.Replace(field, regex, word => " ").Trim();
 
-                Dictionary<string, List<string>> results = new Dictionary<string, List<string>>();
+                string value = matches[i].Groups[2].Value;
+                value = Regex.Replace(value, regex, word => " ").Trim();
 
-                for (int i = 0; i < matches.Count; i++)
+                if (!results.ContainsKey(field))
                 {
-                    string field = matches[i].Groups[1].Value;
-                    field = Regex.Replace(field, regex, word => " ").Trim();
+                    List<string> values = new List<string>();
+                    values.Add(value);
 
-                    string value = matches[i].Groups[2].Value;
-                    value = Regex.Replace(value, regex, word => " ").Trim();
-
-                    if (!results.ContainsKey(field))
-                    {
-                        List<string> values = new List<string>();
-                        values.Add(value);
-
-                        results.Add(field, values);
-                    }
-                    else if (results.ContainsKey(field))
-                    {
-                        results[field].Add(value);
-                    }
+                    results.Add(field, values);
                 }
-
-                foreach (var pair in results)
+                else if (results.ContainsKey(field))
                 {
-                    Console.Write("{0}=[{1}]", pair.Key, string.Join(", ", pair.Value));
+                    results[field].Add(value);
                 }
-
-                Console.WriteLine();
             }
+
+            foreach (var pair in results)
+            {
+                Console.Write("{0}=[{1}]", pair.Key, string.Join(", ", pair.Value));
+            }
+
+            Console.WriteLine();
         }
     }
 }

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-
-class MatchPhoneNumber
+internal class MatchPhoneNumber
 {
-    static void Main()
+    private static void Main()
     {
         string phone = Console.ReadLine();
 
@@ -17,9 +16,8 @@ class MatchPhoneNumber
             {
                 Console.WriteLine(phone);
             }
-            
+
             phone = Console.ReadLine();
         }
     }
 }
-
