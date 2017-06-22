@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Second Nature", "01. Second Nature\01. Second Nature.csproj", "{A6FB8741-7E6E-4AC5-BF00-C49BDE71FE3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Nature’s Prophet", "02. Nature’s Prophet\02. Nature’s Prophet.csproj", "{299E47DD-DE82-4B99-83AC-A022AE71DB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. NMS", "03. NMS\03. NMS.csproj", "{2DD55B2C-A54C-4B79-BB64-5B57708D466A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A6FB8741-7E6E-4AC5-BF00-C49BDE71FE3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6FB8741-7E6E-4AC5-BF00-C49BDE71FE3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6FB8741-7E6E-4AC5-BF00-C49BDE71FE3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299E47DD-DE82-4B99-83AC-A022AE71DB6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299E47DD-DE82-4B99-83AC-A022AE71DB6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299E47DD-DE82-4B99-83AC-A022AE71DB6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299E47DD-DE82-4B99-83AC-A022AE71DB6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD55B2C-A54C-4B79-BB64-5B57708D466A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD55B2C-A54C-4B79-BB64-5B57708D466A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD55B2C-A54C-4B79-BB64-5B57708D466A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD55B2C-A54C-4B79-BB64-5B57708D466A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

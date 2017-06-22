@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6FB8741-7E6E-4AC5-BF00-C49BDE71FE3F}</ProjectGuid>
+    <ProjectGuid>{2DD55B2C-A54C-4B79-BB64-5B57708D466A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Second_Nature</RootNamespace>
-    <AssemblyName>_01.Second_Nature</AssemblyName>
+    <RootNamespace>_03.NMS</RootNamespace>
+    <AssemblyName>_03.NMS</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SecondNature.cs" />
+    <Compile Include="NMS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
