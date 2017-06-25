@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3CBC9BBF-A534-4A8E-B9E2-039F7D635413}</ProjectGuid>
+    <ProjectGuid>{9986240C-463E-4EAA-80E4-511A4484B4B6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04.Ashes_of_Roses</RootNamespace>
-    <AssemblyName>_04.Ashes_of_Roses</AssemblyName>
+    <RootNamespace>Task_2</RootNamespace>
+    <AssemblyName>Task 2</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AshesOfRoses.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
