@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Define a class Person", "01. Define a class Person\01. Define a class Person.csproj", "{816D99E8-8B68-4221-88EB-50A98E2E56D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Creating Constructors", "02. Creating Constructors\02. Creating Constructors.csproj", "{32917860-A68F-4045-BDA9-CAB0C382BCED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Oldest Family Member", "03. Oldest Family Member\03. Oldest Family Member.csproj", "{141F92B0-1F00-4AC8-B7C9-EBF387A2673A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{816D99E8-8B68-4221-88EB-50A98E2E56D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816D99E8-8B68-4221-88EB-50A98E2E56D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816D99E8-8B68-4221-88EB-50A98E2E56D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816D99E8-8B68-4221-88EB-50A98E2E56D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32917860-A68F-4045-BDA9-CAB0C382BCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32917860-A68F-4045-BDA9-CAB0C382BCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32917860-A68F-4045-BDA9-CAB0C382BCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32917860-A68F-4045-BDA9-CAB0C382BCED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141F92B0-1F00-4AC8-B7C9-EBF387A2673A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141F92B0-1F00-4AC8-B7C9-EBF387A2673A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141F92B0-1F00-4AC8-B7C9-EBF387A2673A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141F92B0-1F00-4AC8-B7C9-EBF387A2673A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
