@@ -1,32 +1,25 @@
-﻿
-using System;
-using System.Reflection;
-
-class Program
+﻿namespace OldestFamilyMember
 {
-    static void Main()
+    using System;
+    public class StartUp
     {
-        MethodInfo oldestMemberMethod = typeof(Family).GetMethod("GetOldestMember");
-        MethodInfo addMemberMethod = typeof(Family).GetMethod("AddMember");
-        if (oldestMemberMethod == null || addMemberMethod == null)
+        public static void Main(string[] args)
         {
-            throw new Exception();
+            var numberOfPeople = int.Parse(Console.ReadLine());
+            var family = new Family();
+
+            for (int i = 0; i < numberOfPeople; i++)
+            {
+                var personInfo = Console.ReadLine().Split(' ');
+                var personName = personInfo[0];
+                var personAge = int.Parse(personInfo[1]);
+
+                var person = new Person(personName, personAge);
+                family.AddMember(person);
+            }
+
+            var oldestPerson = family.GetOldestMember();
+            Console.WriteLine($"{oldestPerson.Name} {oldestPerson.Age}");
         }
-
-        Family family = new Family();
-        int count = int.Parse(Console.ReadLine());
-
-        for (int i = 0; i < count; i++)
-        {
-            string[] input = Console.ReadLine().Split();
-
-            Person person = new Person(int.Parse(input[1]), input[0]);
-            family.AddMember(person);
-        }
-
-        Person oldest = family.GetOldestMember();
-        Console.WriteLine($"{oldest.name} {oldest.age}");
-
     }
 }
-

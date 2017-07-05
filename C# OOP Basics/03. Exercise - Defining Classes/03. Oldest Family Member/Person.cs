@@ -1,19 +1,24 @@
-﻿public class Person
+﻿namespace OldestFamilyMember
 {
-    public string name;
-    public int age;
-
-    public Person() : this(1, "No name")
+    public class Person
     {
-    }
+        private string name;
+        private int age;
 
-    public Person(int age) : this(age, "No name")
-    {
-    }
+        public Person(string name, int age)
+        {
+            this.name = name;
+            this.age = age;
+        }
 
-    public Person(int age, string name)
-    {
-        this.age = age;
-        this.name = name;
+        public int Age
+        {
+            get { return this.age; }
+        }
+
+        public string Name
+        {
+            get { return this.name; }
+        }
     }
 }

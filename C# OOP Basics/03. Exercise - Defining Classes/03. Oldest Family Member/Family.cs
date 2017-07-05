@@ -1,27 +1,25 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-public class Family
+﻿namespace OldestFamilyMember
 {
-    private List<Person> people;
+    using System.Collections.Generic;
+    using System.Linq;
+    public class Family
+    {
+        private List<Person> members;
 
-    public Family()
-    {
-        Peoples = new List<Person>();
-    }
-    public List<Person> Peoples
-    {
-        get { return this.people; }
-        set { this.people = value; }
-    }
+        public Family()
+        {
+            this.members = new List<Person>();
+        }
+        public void AddMember(Person member)
+        {
+            this.members.Add(member);
+        }
 
-    public void AddMember(Person member)
-    {
-        this.Peoples.Add(member);
-    }
-
-    public Person GetOldestMember()
-    {
-        return Peoples.OrderByDescending(x => x.age).FirstOrDefault();
+        public Person GetOldestMember()
+        {
+            return this.members
+                 .OrderByDescending(p => p.Age)
+                 .FirstOrDefault();
+        }
     }
 }

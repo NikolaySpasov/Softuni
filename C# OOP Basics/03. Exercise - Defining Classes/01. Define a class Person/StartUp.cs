@@ -24,5 +24,7 @@ public class DefineClassPerson
             name = "Stamat",
             age = 43
         };
+        Console.WriteLine(secondPerson.name);
+        
     }
 }
