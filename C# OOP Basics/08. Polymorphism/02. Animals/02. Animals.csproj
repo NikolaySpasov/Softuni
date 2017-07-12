@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FBC681AE-988E-482B-AB5E-5FCD6C662E30}</ProjectGuid>
+    <ProjectGuid>{EA1B4BEC-ACF8-4BEF-8FC5-AA671D58073E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06.Company_Roster</RootNamespace>
-    <AssemblyName>_06.Company_Roster</AssemblyName>
+    <RootNamespace>_02.Animals</RootNamespace>
+    <AssemblyName>_02.Animals</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
+    <Compile Include="Animal.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="Dog.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

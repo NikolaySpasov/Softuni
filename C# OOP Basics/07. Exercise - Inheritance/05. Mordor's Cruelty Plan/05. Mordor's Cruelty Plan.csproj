@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FBC681AE-988E-482B-AB5E-5FCD6C662E30}</ProjectGuid>
+    <ProjectGuid>{D238BAAA-3A77-4E25-80B4-03B1372B8168}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06.Company_Roster</RootNamespace>
-    <AssemblyName>_06.Company_Roster</AssemblyName>
+    <RootNamespace>_05.Mordor_s_Cruelty_Plan</RootNamespace>
+    <AssemblyName>_05.Mordor_s_Cruelty_Plan</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
+    <Compile Include="Factory\FoodFactory.cs" />
+    <Compile Include="Factory\FoodModels\Apple.cs" />
+    <Compile Include="Factory\FoodModels\Cram.cs" />
+    <Compile Include="Factory\FoodModels\Food.cs" />
+    <Compile Include="Factory\FoodModels\HoneyCake.cs" />
+    <Compile Include="Factory\FoodModels\Lembas.cs" />
+    <Compile Include="Factory\FoodModels\Melon.cs" />
+    <Compile Include="Factory\FoodModels\Mushroom.cs" />
+    <Compile Include="Factory\FoodModels\OtherFood.cs" />
+    <Compile Include="Factory\Gandalf.cs" />
+    <Compile Include="Factory\MoodFactory.cs" />
+    <Compile Include="Factory\MoodModels\Angry.cs" />
+    <Compile Include="Factory\MoodModels\Happy.cs" />
+    <Compile Include="Factory\MoodModels\JavaScript.cs" />
+    <Compile Include="Factory\MoodModels\Mood.cs" />
+    <Compile Include="Factory\MoodModels\Sad.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

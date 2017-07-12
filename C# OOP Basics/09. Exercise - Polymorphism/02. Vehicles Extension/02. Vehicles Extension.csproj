@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FBC681AE-988E-482B-AB5E-5FCD6C662E30}</ProjectGuid>
+    <ProjectGuid>{4AC3BC95-8091-4216-ADF6-57820263939D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06.Company_Roster</RootNamespace>
-    <AssemblyName>_06.Company_Roster</AssemblyName>
+    <RootNamespace>_02.Vehicles_Extension</RootNamespace>
+    <AssemblyName>_02.Vehicles_Extension</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
+    <Compile Include="Models\Bus.cs" />
+    <Compile Include="Models\Car.cs" />
+    <Compile Include="Models\Truck.cs" />
+    <Compile Include="Models\Vehicle.cs" />
     <Compile Include="StartUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

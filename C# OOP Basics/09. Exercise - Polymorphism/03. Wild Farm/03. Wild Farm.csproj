@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FBC681AE-988E-482B-AB5E-5FCD6C662E30}</ProjectGuid>
+    <ProjectGuid>{A22798E4-BBBD-4B25-A31B-2FBE4B1C73BB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06.Company_Roster</RootNamespace>
-    <AssemblyName>_06.Company_Roster</AssemblyName>
+    <RootNamespace>_03.Wild_Farm</RootNamespace>
+    <AssemblyName>_03.Wild_Farm</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="StartUp.cs" />
+    <Compile Include="Factories\AnimalFactory.cs" />
+    <Compile Include="Factories\FoodFactory.cs" />
+    <Compile Include="Models\Animal.cs" />
+    <Compile Include="Models\Felime.cs" />
+    <Compile Include="Models\Food.cs" />
+    <Compile Include="Models\Foods\Meat.cs" />
+    <Compile Include="Models\Foods\Vegetable.cs" />
+    <Compile Include="Models\Mammal.cs" />
+    <Compile Include="Models\Animals\Cat.cs" />
+    <Compile Include="Models\Animals\Mouse.cs" />
+    <Compile Include="Models\Animals\Tiger.cs" />
+    <Compile Include="Models\Animals\Zebra.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
